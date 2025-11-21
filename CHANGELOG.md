@@ -8,11 +8,10 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 - **Explore & Plan agents:**
   - Enhanced READ-ONLY restrictions with explicit bulleted list of prohibited operations
-  - Explore & Plan agents: Added note that file editing tools are not available
-  - Explore & Plan agents: Reformatted Bash tool restrictions for clarity
+  - Added note that file editing tools are not available
+  - Reformatted Bash tool restrictions for clarity
 
-
-#### **2.0.48** &ndash; _This versions does not exist._
+#### **2.0.48** &ndash; _This version does not exist._
 
 # [2.0.47](https://github.com/Piebald-AI/claude-code-system-prompts/commit/62075a9489f7edb416970b9e67605c288ce562ac)
 
@@ -60,11 +59,11 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 - Prompt Hook execution: Fixed JSON format (added quotes around keys)
 - Main system prompt: Added `FEEDBACK_CHANNEL` variable
 
-#### **2.0.40** &ndash; _This versions does not exist._
+#### **2.0.40** &ndash; _This version does not exist._
 
-#### **2.0.39** &ndash; _This versions does not exist._
+#### **2.0.39** &ndash; _This version does not exist._
 
-#### **2.0.38** &ndash; _This versions does not exist._
+#### **2.0.38** &ndash; _This version does not exist._
 
 # [2.0.37](https://github.com/Piebald-AI/claude-code-system-prompts/commit/a6eb810)
 
@@ -139,7 +138,7 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 - **NEW:** Tool description: Bash (sandbox note)
 
-#### **2.0.23** &ndash; _This versions does not exist._
+#### **2.0.23** &ndash; _This version does not exist._
 
 #### [2.0.22](https://github.com/Piebald-AI/claude-code-system-prompts/commit/f6910aa)
 
@@ -168,7 +167,7 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 - Main system prompt: Added examples for when to use Explore agent vs direct search
 - Main system prompt: Added new variables (`EXPLORE_AGENT`, `GLOB_TOOL_NAME`, `GREP_TOOL_NAME`)
 
-#### **2.0.16** &ndash; _This versions does not exist._
+#### **2.0.16** &ndash; _This version does not exist._
 
 # [2.0.15](https://github.com/Piebald-AI/claude-code-system-prompts/commit/ed40efa)
 
