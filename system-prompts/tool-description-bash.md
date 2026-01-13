@@ -6,7 +6,7 @@ variables:
   - CUSTOM_TIMEOUT_MS
   - MAX_TIMEOUT_MS
   - MAX_OUTPUT_CHARS
-  - BASH_TOOL_NAME
+  - RUN_IN_BACKGROUND_NOTE
   - BASH_TOOL_EXTRA_NOTES
   - SEARCH_TOOL_NAME
   - GREP_TOOL_NAME
@@ -41,7 +41,7 @@ Usage notes:
   - You can specify an optional timeout in milliseconds (up to ${CUSTOM_TIMEOUT_MS()}ms / ${CUSTOM_TIMEOUT_MS()/60000} minutes). If not specified, commands will timeout after ${MAX_TIMEOUT_MS()}ms (${MAX_TIMEOUT_MS()/60000} minutes).
   - It is very helpful if you write a clear, concise description of what this command does. For simple commands, keep it brief (5-10 words). For complex commands (piped commands, obscure flags, or anything hard to understand at a glance), add enough context to clarify what it does.
   - If the output exceeds ${MAX_OUTPUT_CHARS()} characters, output will be truncated before being returned to you.
-  ${BASH_TOOL_NAME()}
+  ${RUN_IN_BACKGROUND_NOTE()}
   ${BASH_TOOL_EXTRA_NOTES()}
   - Avoid using Bash with the \`find\`, \`grep\`, \`cat\`, \`head\`, \`tail\`, \`sed\`, \`awk\`, or \`echo\` commands, unless explicitly instructed or when these commands are truly necessary for the task. Instead, always prefer using the dedicated tools for these commands:
     - File search: Use ${SEARCH_TOOL_NAME} (NOT find or ls)
