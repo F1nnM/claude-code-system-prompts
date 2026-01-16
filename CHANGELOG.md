@@ -4,6 +4,15 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+# [2.1.9](https://github.com/Piebald-AI/claude-code-system-prompts/commit/0f37d97)
+
+_+963 tokens_
+
+- **NEW:** System Prompt: Hooks Configuration - system prompt for hooks configuration, used for Claude Code config skill
+- **REMOVED:** System Prompt: Autonomous agent (standalone) - standalone autonomous agent mode prompt without system context prefix
+- **REMOVED:** System Prompt: Autonomous agent (with context) - autonomous agent mode prompt prefixed with main system prompt
+- System Prompt: Main system prompt - renamed "Planning without timelines" section to "No time estimates"; expanded guidance to explicitly prohibit giving time estimates for Claude's own work (e.g., "this will take me a few minutes," "should be done in about 5 minutes," "this is a quick fix") in addition to existing prohibition on suggesting project timelines; added emphasis that users should judge timing themselves
+
 # [2.1.8](https://github.com/Piebald-AI/claude-code-system-prompts/commit/168ab21)
 
 _-101 tokens_
