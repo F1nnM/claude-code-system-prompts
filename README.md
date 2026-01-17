@@ -31,7 +31,7 @@ Download it and try it out for free!  **https://piebald.ai/**
 
 [![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge.svg)](https://github.com/hesreallyhim/awesome-claude-code)
 
-This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.1.9](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.9) (January 15th, 2026).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 68 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
+This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.1.10](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.10) (January 16th, 2026).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 69 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
 
 **This repository is updated within minutes of each Claude Code release.  See the [CHANGELOG](./CHANGELOG.md), and follow [@PiebaldAI](https://x.com/PiebaldAI) on X for a summary of the system prompt changes in each release.**
 
@@ -102,7 +102,7 @@ Sub-agents and utilities.
 - [Agent Prompt: Session Search Assistant](./system-prompts/agent-prompt-session-search-assistant.md) (**439** tks) - Agent prompt for the session search assistant that finds relevant sessions based on user queries and metadata.
 - [Agent Prompt: Session notes template](./system-prompts/agent-prompt-session-notes-template.md) (**292** tks) - Template structure for session notes tracking coding work and decisions.
 - [Agent Prompt: Session notes update instructions](./system-prompts/agent-prompt-session-notes-update-instructions.md) (**756** tks) - Instructions for updating session notes files during conversations.
-- [Agent Prompt: Session title and branch generation](./system-prompts/agent-prompt-session-title-and-branch-generation.md) (**333** tks) - System prompt for generating succinct titles and git branch names for coding sessions.
+- [Agent Prompt: Session title and branch generation](./system-prompts/agent-prompt-session-title-and-branch-generation.md) (**355** tks) - System prompt for generating succinct titles and git branch names for coding sessions.
 - [Agent Prompt: Update Magic Docs](./system-prompts/agent-prompt-update-magic-docs.md) (**718** tks) - Prompt for the magic-docs agent..
 - [Agent Prompt: User sentiment analysis](./system-prompts/agent-prompt-user-sentiment-analysis.md) (**205** tks) - System prompt for analyzing user frustration and PR creation requests.
 - [Agent Prompt: WebFetch summarizer](./system-prompts/agent-prompt-webfetch-summarizer.md) (**185** tks) - Prompt for agent that summarizes verbose output from WebFetch for the main model.
@@ -166,7 +166,7 @@ Text for large system reminders.
 
 **Additional notes for some Tool Desscriptions**
 
-- [Tool Description: Bash (Git commit and PR creation instructions)](./system-prompts/tool-description-bash-git-commit-and-pr-creation-instructions.md) (**1526** tks) - Instructions for creating git commits and GitHub pull requests.
+- [Tool Description: Bash (Git commit and PR creation instructions)](./system-prompts/tool-description-bash-git-commit-and-pr-creation-instructions.md) (**1386** tks) - Instructions for creating git commits and GitHub pull requests.
 - [Tool Description: Bash (sandbox note)](./system-prompts/tool-description-bash-sandbox-note.md) (**454** tks) - Note about bash command sandboxing.
 - [Tool Description: ExitPlanMode v2 (security notes)](./system-prompts/tool-description-exitplanmode-v2-security-notes.md) (**241** tks) - Security guidelines for scoping permissions when using the ExitPlanMode tool.
 - [Tool Description: MCPSearch (with available tools)](./system-prompts/tool-description-mcpsearch-with-available-tools.md) (**510** tks) - Tool description for the MCPSearch tool with available tools listed.

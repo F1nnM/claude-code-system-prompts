@@ -1,7 +1,7 @@
 <!--
 name: 'Tool Description: Bash (Git commit and PR creation instructions)'
 description: Instructions for creating git commits and GitHub pull requests
-ccVersion: 2.1.3
+ccVersion: 2.1.10
 variables:
   - BASH_TOOL_NAME
   - COMMIT_CO_AUTHORED_BY_CLAUDE_CODE
@@ -19,12 +19,7 @@ Git Safety Protocol:
 - NEVER run destructive/irreversible git commands (like push --force, hard reset, etc) unless the user explicitly requests them
 - NEVER skip hooks (--no-verify, --no-gpg-sign, etc) unless the user explicitly requests it
 - NEVER run force push to main/master, warn the user if they request it
-- Avoid git commit --amend. ONLY use --amend when ALL conditions are met:
-  (1) User explicitly requested amend, OR commit SUCCEEDED but pre-commit hook auto-modified files that need including
-  (2) HEAD commit was created by you in this conversation (verify: git log -1 --format='%an %ae')
-  (3) Commit has NOT been pushed to remote (verify: git status shows "Your branch is ahead")
-- CRITICAL: If commit FAILED or was REJECTED by hook, NEVER amend - fix the issue and create a NEW commit
-- CRITICAL: If you already pushed to remote, NEVER amend unless user explicitly requests it (requires force push)
+- CRITICAL: ALWAYS create NEW commits. NEVER use git commit --amend, unless the user explicitly requests it
 - NEVER commit changes unless the user explicitly asks you to. It is VERY IMPORTANT to only commit when explicitly asked, otherwise the user will feel that you are being too proactive.
 
 1. ${BASH_TOOL_NAME} run the following bash commands in parallel, each using the ${COMMIT_CO_AUTHORED_BY_CLAUDE_CODE} tool:
@@ -42,7 +37,7 @@ Git Safety Protocol:
    ${TODO_TOOL_OBJECT}`:"."}
    - Run git status after the commit completes to verify success.
    Note: git status depends on the commit completing, so run it sequentially after the commit.
-4. If the commit fails due to pre-commit hook, fix the issue and create a NEW commit (see amend rules above)
+4. If the commit fails due to pre-commit hook: fix the issue and create a NEW commit
 
 Important notes:
 - NEVER run additional commands to read or explore code, besides git bash commands
