@@ -34,7 +34,7 @@ Download it and try it out for free!  **https://piebald.ai/**
 > [!important]
 > **NEW (January 23, 2026): We've added all of Claude Code's ~40 system reminders to this list&mdash;see [System Reminders](#system-reminders).**
 
-This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.1.18](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.18) (January 22nd, 2026).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 76 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
+This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.1.19](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.19) (January 23rd, 2026).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 77 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
 
 **This repository is updated within minutes of each Claude Code release.  See the [changelog](./CHANGELOG.md), and follow [@PiebaldAI](https://x.com/PiebaldAI) on X for a summary of the system prompt changes in each release.**
 
@@ -81,7 +81,7 @@ Sub-agents and utilities.
 
 - [Agent Prompt: Agent creation architect](./system-prompts/agent-prompt-agent-creation-architect.md) (**1110** tks) - System prompt for creating custom AI agents with detailed specifications.
 - [Agent Prompt: CLAUDE.md creation](./system-prompts/agent-prompt-claudemd-creation.md) (**384** tks) - System prompt for analyzing codebases and creating CLAUDE.md documentation files.
-- [Agent Prompt: Status line setup](./system-prompts/agent-prompt-status-line-setup.md) (**1394** tks) - System prompt for the statusline-setup agent that configures status line display.
+- [Agent Prompt: Status line setup](./system-prompts/agent-prompt-status-line-setup.md) (**1460** tks) - System prompt for the statusline-setup agent that configures status line display.
 
 ### Slash commands
 
@@ -136,11 +136,12 @@ Parts of the main system prompt.
 - [System Prompt: MCP CLI](./system-prompts/system-prompt-mcp-cli.md) (**1335** tks) - Instructions for using mcp-cli to interact with Model Context Protocol servers.
 - [System Prompt: Scratchpad directory](./system-prompts/system-prompt-scratchpad-directory.md) (**172** tks) - Instructions for using a dedicated scratchpad directory for temporary files.
 - [System Prompt: Teammate Communication](./system-prompts/system-prompt-teammate-communication.md) (**138** tks) - System prompt for teammate communication in swarm.
+- [System Prompt: Tool Use Summary Generation](./system-prompts/system-prompt-tool-use-summary-generation.md) (**171** tks) - Prompt for generating summaries of tool usage.
 - [System Prompt: Tool execution denied](./system-prompts/system-prompt-tool-execution-denied.md) (**157** tks) - System prompt for when tool execution is denied.
 
 ### System Reminders
 
-Text for all system reminders.
+All Claude Code system reminders.
 
 - [System Reminder: Agent mention](./system-prompts/system-reminder-agent-mention.md) (**45** tks) - Notification that user wants to invoke an agent.
 - [System Reminder: Compact file reference](./system-prompts/system-reminder-compact-file-reference.md) (**57** tks) - Reference to file read before conversation summarization.
@@ -199,14 +200,13 @@ Text for all system reminders.
 - [Tool Description: LSP](./system-prompts/tool-description-lsp.md) (**255** tks) - Description for the LSP tool..
 - [Tool Description: NotebookEdit](./system-prompts/tool-description-notebookedit.md) (**121** tks) - Tool description for editing Jupyter notebook cells.
 - [Tool Description: ReadFile](./system-prompts/tool-description-readfile.md) (**439** tks) - Tool description for reading files.
-- [Tool Description: Skill](./system-prompts/tool-description-skill.md) (**444** tks) - Tool description for executing skills in the main conversation.
-- [Tool Description: TaskCreate](./system-prompts/tool-description-taskcreate.md) (**570** tks) - Tool description for TaskCreate tool.
-- [Tool Description: TaskList](./system-prompts/tool-description-tasklist.md) (**313** tks) - Description for the TaskList tool, which lists all tasks in the task list.
+- [Tool Description: Skill](./system-prompts/tool-description-skill.md) (**442** tks) - Tool description for executing skills in the main conversation.
+- [Tool Description: TaskCreate](./system-prompts/tool-description-taskcreate.md) (**558** tks) - Tool description for TaskCreate tool.
 - [Tool Description: Task](./system-prompts/tool-description-task.md) (**1311** tks) - Tool description for launching specialized sub-agents to handle complex tasks.
 - [Tool Description: TeammateTool's operation parameter](./system-prompts/tool-description-teammatetools-operation-parameter.md) (**173** tks) - Tool description for the TeammateTool's operation parameter.
 - [Tool Description: TeammateTool](./system-prompts/tool-description-teammatetool.md) (**3811** tks) - Tool description for the TeammateTool.
 - [Tool Description: TodoWrite](./system-prompts/tool-description-todowrite.md) (**2167** tks) - Tool description for creating and managing task lists.
-- [Tool Description: ToolSearch](./system-prompts/tool-description-toolsearch.md) (**520** tks) - Tool description for loading and searching deferred tools before use.
+- [Tool Description: ToolSearch](./system-prompts/tool-description-toolsearch.md) (**792** tks) - Tool description for loading and searching deferred tools before use.
 - [Tool Description: WebFetch](./system-prompts/tool-description-webfetch.md) (**297** tks) - Tool description for web fetch functionality.
 - [Tool Description: WebSearch](./system-prompts/tool-description-websearch.md) (**329** tks) - Tool description for web search functionality.
 - [Tool Description: Write](./system-prompts/tool-description-write.md) (**159** tks) - Tool description for creating and overwriting individual files.

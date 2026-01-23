@@ -1,7 +1,7 @@
 <!--
 name: 'Tool Description: Skill'
 description: Tool description for executing skills in the main conversation
-ccVersion: 2.0.77
+ccVersion: 2.1.19
 variables:
   - FORMAT_SKILLS_AS_XML_FN
   - LIMITED_COMMANDS
@@ -28,7 +28,7 @@ Important:
 - When a skill is relevant, you must invoke this tool IMMEDIATELY as your first action
 - NEVER just announce or mention a skill in your text response without actually calling this tool
 - This is a BLOCKING REQUIREMENT: invoke the relevant Skill tool BEFORE generating any other response about the task
-- Only use skills listed in "Available skills" below
+- Skills listed below are available for invocation
 - Do not invoke a skill that is already running
 - Do not use this tool for built-in CLI commands (like /help, /clear, etc.)
 - If you see a <${FORMAT_SKILLS_AS_XML_FN}> tag in the current conversation turn (e.g., <${FORMAT_SKILLS_AS_XML_FN}>/commit</${FORMAT_SKILLS_AS_XML_FN}>), the skill has ALREADY been loaded and its instructions follow in the next message. Do NOT call this tool - just follow the skill instructions directly.
