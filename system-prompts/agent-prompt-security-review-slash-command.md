@@ -1,5 +1,5 @@
 <!--
-name: 'Agent Prompt: /security-review slash'
+name: 'Agent Prompt: /security-review slash command'
 description: Comprehensive security review prompt for analyzing code changes with focus on exploitable vulnerabilities
 ccVersion: 2.0.70
 -->

@@ -1,5 +1,5 @@
 <!--
-name: 'System Reminder: Plan mode is active (for subagents)'
+name: 'System Reminder: Plan mode is active (subagent)'
 description: Simplified plan mode system reminder for sub agents
 ccVersion: 2.0.43
 variables:
