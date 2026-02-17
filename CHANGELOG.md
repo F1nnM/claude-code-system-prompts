@@ -4,6 +4,16 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+#### [2.1.45](https://github.com/Piebald-AI/claude-code-system-prompts/commit/36d2856)
+
+_+276 tokens_
+
+- **NEW:** Agent Prompt: Single-word search term extractor - System prompt for extracting single-word search terms from a user's query (361 tks).
+- **NEW:** System Prompt: Option previewer - System prompt for previewing UI options in a side-by-side layout (129 tks).
+- **REMOVED:** Agent Prompt: Prompt Suggestion Generator (Stated Intent) - Removed the stated-intent prompt suggestion generator that returned a user's explicitly stated next step (166 tks).
+- Agent Prompt: /review-pr slash command - Replaced `${BASH_TOOL_OBJECT.name}(...)` template expressions with plain backtick-quoted `gh` commands; removed `BASH_TOOL_OBJECT` variable (243 → 211 tks).
+- Tool Description: Bash (sandbox note) - Removed `CONDITIONAL_NEWLINE_IF_SANDBOX_ENABLED` variable; the conditional newline before the "Set dangerouslyDisableSandbox" bullet is now always included (454 → 438 tks).
+
 #### [2.1.44](https://github.com/Piebald-AI/claude-code-system-prompts/commit/eb6a818)
 
 <sub>_No changes to the system prompts in v2.1.44._</sub>
